@@ -4,8 +4,11 @@ version = "0.1.0"
 authors = ["Kyle Harris <kaharrs2@gmail.com>"]
 edition = "2018"
 description = "Raw bindings to libxtrx using bindgen."
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+homepage = "https://github.com/garbagetrash/xtrx-sys"
+repository = "https://github.com/garbagetrash/xtrx-sys"
+readme = "README.md"
+keywords = ["xtrx", "ffi", "bindings"]
+license = "MIT"
 
 [build-dependencies]
 bindgen = "0.51"
